@@ -1,0 +1,125 @@
+/* Seletores universais da página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    --ff-text: "Palanquin", sans-serif;
+    --ff-tittle: "Oswald", sans-serif;
+    --ff-span: "Oswald", sans-serif;
+
+    --fc-text: #23053A;
+    --fc-tittle: #FFFFFF;
+    --fc-span: #4A4E69;
+    
+    --bg-body: rgb(114, 91, 126);
+    --bg-article: rgb(231, 216, 245);
+    --bg-span: rgb(231, 216, 245);
+    --bg-h1: rgb(231, 216, 245);
+}
+
+/* Corpo da página */
+.container {
+    display: grid;
+    gap: 3.6rem;
+
+    text-align: center;
+    margin: 0 auto;
+
+    max-width: 32rem;
+}
+
+/* Estilizando e alinhando as imagens e os cards menores dentro das imagens */
+img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 2rem;
+}
+.card {
+    position: relative;
+
+    margin-bottom: 20px;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card span {
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+
+    height: 3.5rem;
+    top: 1.6rem;
+    right: 1.6rem;
+    padding: 1px 24px;
+
+    background-color: var(--bg-span);
+    border-radius: 20px;
+
+    color: var(--fc-span);
+}
+
+/* Textos e fontes da página */
+main {
+    font-family: var(--ff-text);
+    font-size: 2rem;
+}
+
+.container main h1 {
+    font-family: var(--ff-tittle);
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+
+    color: var(--fc-span)
+}
+
+main span {
+    font-family: var(--ff-span);
+    font-size: 2rem;
+}
+
+/* Background da Página */
+
+body {
+    background-color: var(--bg-body);
+}
+
+article {
+    background-color: var(--bg-article);
+
+    border-radius: 20px;
+    padding: 3.6rem;
+}
+
+/* setando algumas margens do loyalt */
+
+header {
+    margin-top: 3.6rem;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 3.0rem;
+    padding: 8px;
+    border-radius: 20px;
+
+    background-color: var(--bg-h1);
+}
+
+p {
+    margin-bottom: 60px;
+    font-size: 1.6rem;
+}
