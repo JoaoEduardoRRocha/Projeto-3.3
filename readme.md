@@ -1,13 +1,13 @@
-![preview](/preview/img.png)
+![preview](/image/preview.png)
 
 >PT-BR
 
-Desafio do Stage 3 da turma Explorer da Rocketseat.
+Desafio sobre Grid do Stage 3 da turma Explorer da Rocketseat.
 
 >EN-US
 
 
-Rocketseat Explorer Class Stage 3 Challenge.
+Rocketseat Explorer Class Stage 3 Grid Challenge.
 
 ## ⚙️ Languages
 
